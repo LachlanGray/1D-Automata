@@ -36,10 +36,28 @@ class Automata():
 			self.tick()
 			game.append(self.state[self.r:self.N + self.r])
 
-			if no_freeze and (self.state[self.l:self.N + self.l] == game[-1]).all():
+			if no_freeze and (self.state[self.r:self.N + self.r] == game[-1]).all():
 				break
 
 		return np.array(game)
+
+
+	def maj_rule(self, M):
+		
+		self.state = self.begin_state
+
+		for i in range(M):
+			
+			prev = self.state
+
+			self.tick()
+
+			if (self.state == prev).all():
+				break
+
+		# fraction of 1's in the final state
+		return np.sum(self.state[self.r:self.N + self.r])/self.N
+
 
 
 

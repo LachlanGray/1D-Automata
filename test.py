@@ -1,9 +1,8 @@
 from automata import Automata
 from matplotlib.pyplot import imshow, show
 
-a = Automata(50,2)
+a = Automata(100,3)
 
-g = a.play(100)
+g = a.maj_rule(100)
 
-imshow(g)
-show()
+print(g)
