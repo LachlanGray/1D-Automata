@@ -25,6 +25,10 @@ class Automata():
 	def update_rule(self, new_rule):
 		self.rule = {local_state:action for local_state, action in zip(self.rule.keys(), new_rule)}
 
+	def set_default_state(self, state):
+		self.default_state = np.concatenate((state[-self.l:], state, state[:self.l]))
+		self.N = len(state)
+
 
 	def tick(self):
 		state = np.array([self.rule[self.state[a:b].tobytes()] for a, b in zip(range(0,self.N), range(2*self.r + 1, self.N + 2*self.r + 1))])
