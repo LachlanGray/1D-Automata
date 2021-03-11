@@ -15,7 +15,7 @@ For example one rule in the table with $r = 3$ could look like:
 
 So, if the centre cell finds itself in this situation (with itself on, left neighbours off on on, right neighbours off, on, off ) then it will remain on for the next time step. There are $2^{2r + 1}$ possible states that the rule table has to account for. Consequently, there are $2^{2^{2r + 1}}$ possible rule tables. This is a **big** number, and tucked away in the galactic number of possibilities are many interesting (or even useful) behaviours.
 
-Things get interesting when several cellular automata are put together 'shoulder to shoulder' in a ring formation, and update their states simultaneously over a series of time steps, following the same rules.
+The magic happens when several cellular automata are put together 'shoulder to shoulder' in a ring formation, and update their states simultaneously over a series of time steps, following the same rules.
 
 
 <!-- GETTING STARTED -->
