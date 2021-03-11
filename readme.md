@@ -69,6 +69,11 @@ Which can be displayed with
   plt.imshow(g)
   plt.axis('off')
   ```
+ 
+![](https://github.com/LachlanGray/Automata/blob/main/images/g1.png)
+![](https://github.com/LachlanGray/Automata/blob/main/images/g2.png)
+![](https://github.com/LachlanGray/Automata/blob/main/images/g3.png)
+![](https://github.com/LachlanGray/Automata/blob/main/images/g4.png)
 
 Also recall that the automata are in a ring formation, meaning that the the leftmost and rightmost cell in each row are next-door neighbours.
 
