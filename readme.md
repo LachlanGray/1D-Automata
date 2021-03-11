@@ -43,8 +43,6 @@ Just clone the repo:
 <!-- USAGE -->
 ## Usage
 
-### automata.py
-
 Get started with a python file or notebook in the same directory as automata.py, and import Automata:
   ```python
   from automata import Automata
@@ -77,7 +75,7 @@ Which can be displayed with
 
 Here are some examples of what you might see. Also note that since the automata are in a ring formation, the the leftmost and rightmost cell in each row are next-door neighbours.
 
-#### Other functions
+### Other functions
 
 `Automata.print_rule()` Prints the the automata's rule table. 
 
@@ -90,7 +88,7 @@ Here are some examples of what you might see. Also note that since the automata 
 `Automata.maj_rule(M)` Returns the fraction of 1's in the global state after $M$ timesteps. 
 
 
-### majority_rule.ipynb
+## majority_rule.ipynb
 
 This is a python implementation of the genetic algorithm described by James Crutchfield, Rajarshi Das, and Melanie Mitchell [In this paper](https://www.santafe.edu/research/results/working-papers/a-genetic-algorithm-discovers-particle-based-compu) to solve [the majority-rule problem](https://en.wikipedia.org/wiki/Majority_problem_(cellular_automaton)). 
 
