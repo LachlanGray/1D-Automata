@@ -5,7 +5,7 @@
 
 Cellular automata are a favourite example of how a few simple rules can lead to vast and complex behavour.  
 
-A singular 1D cellular automata is a 'cell' whose state is either on or off, who can observe the state of $r$ neighbours to its left and right, and who has a specific action (turn/stay on or turn/stay off) assigned for every possible neighbourhood that it can observe. The rules are recorded in a rule table that states a specific action for every combination of neighbouring states and that of the acting cell. 
+A singular 1D cellular automaton is a 'cell' whose state is either on or off, who can observe the state of $r$ neighbours to its left and right, and who has a specific action (turn/stay on or turn/stay off) assigned for every possible neighbourhood that it can observe. The rules are recorded in a rule table that states a specific action for every combination of neighbouring states and that of the acting cell. 
 
 For example one rule in the table with $r = 3$ could look like:
 
