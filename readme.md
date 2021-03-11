@@ -75,13 +75,13 @@ Which can be displayed with
 ![](https://github.com/LachlanGray/Automata/blob/main/images/g3.png)
 ![](https://github.com/LachlanGray/Automata/blob/main/images/g4.png)
 
-Here are four examples of what you could see. Also recall that the automata are in a ring formation, meaning that the the leftmost and rightmost cell in each row are next-door neighbours.
+Here are some examples of what you might see. Also note that since the automata are in a ring formation, the the leftmost and rightmost cell in each row are next-door neighbours.
 
 #### Other functions
 
 `Automata.print_rule()` Prints the the automata's rule table. 
 
-`Automata.update_rule(rule)` Sets a new rule table for the automata. It takes a binary numpy array of length $2^{2r+1}$, corresponding to all of the possible local states in alphanumeric order (i.e. the order printed by `print_rule()`). 
+`Automata.update_rule(rule)` Sets a new rule table for the automata. It takes a binary numpy array of length $2^{2r+1}$, corresponding to all of the possible local states in alphanumeric order (i.e. the order printed by print_rule). 
 
 `Automata.set_begin_state(state)` Sets a new initial state for the automata. It takes a binary numpy array of length $N$, one entry for each cell. 
 
