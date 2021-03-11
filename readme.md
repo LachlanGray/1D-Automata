@@ -75,7 +75,7 @@ Which can be displayed with
 ![](https://github.com/LachlanGray/Automata/blob/main/images/g3.png)
 ![](https://github.com/LachlanGray/Automata/blob/main/images/g4.png)
 
-Also recall that the automata are in a ring formation, meaning that the the leftmost and rightmost cell in each row are next-door neighbours.
+Here are four examples of what you could see. Also recall that the automata are in a ring formation, meaning that the the leftmost and rightmost cell in each row are next-door neighbours.
 
 #### Other functions
 
